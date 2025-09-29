@@ -1,1 +1,5 @@
 # Cryptography_Lab3
+This lab demonstrates the implementation of the RSA algorithm and an RSA-based digital signature system. The RSA algorithm is one of the most widely used public-key cryptographic systems, relying on the mathematical difficulty of factoring large prime numbers to ensure security. In the implementation of RSA encryption and decryption, the process begins by generating two large prime numbers which are used to compute the modulus and keys. The public key is then used to encrypt data, while the private key is required to decrypt it, ensuring confidentiality and secure communication between parties.
+
+In addition to encryption and decryption, the lab also implements an RSA-based signature system, which ensures authenticity and integrity of the transmitted message. In this system, the sender creates a digital signature by encrypting a hash of the original message with their private key. The recipient, upon receiving both the message and the signature, verifies the signature using the sender’s public key. This guarantees that the message has not been altered and indeed originates from the claimed sender.
+
